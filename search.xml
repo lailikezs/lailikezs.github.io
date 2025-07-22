@@ -8,7 +8,7 @@
       <link href="/Article/%E8%BF%99%E6%98%AF%E6%B8%A3%E6%B8%A3%E8%BE%89/"/>
       <url>/Article/%E8%BF%99%E6%98%AF%E6%B8%A3%E6%B8%A3%E8%BE%89/</url>
       
-        <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+        <content type="html"><![CDATA[<img src="https://img.20050626.xyz/dog.jpg" alt="狗狗图片" style="width:50%; border-radius:8px; margin:20px auto; display:block;"><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}<p>.video-container iframe {<br>    position: absolute;<br>    top: 0;<br>    left: 0;<br>    width: 100%;<br>    height: 100%;<br>}<br></style></p>]]></content>
       
       
       
