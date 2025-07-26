@@ -1,7 +1,7 @@
+https://luesz.dpdns.org/json/music.json
 https://luesz.dpdns.org/essay/index.html
 https://luesz.dpdns.org/categories/index.html
 https://luesz.dpdns.org/Article/%E6%B8%A3%E6%B8%A3%E8%BE%89/
-https://luesz.dpdns.org/json/music.json
 https://luesz.dpdns.org/music/index.html
 https://luesz.dpdns.org/Article/hello-world/
 https://luesz.dpdns.org/tags/index.html

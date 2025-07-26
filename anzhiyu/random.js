@@ -1,4 +1,4 @@
-var posts=["Article/渣渣辉/","Article/hello-world/"];function toRandomPost(){
+var posts=["Article/hello-world/","Article/渣渣辉/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
