@@ -154,7 +154,7 @@
     
           const now = new Date()
           const hour = now.getHours()
-          const isNight = hour <= 1 || hour >= 24
+          const isNight = hour <= 19 || hour >= 6
           if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
           else if (t === 'light') activateLightMode()
           else activateDarkMode()
