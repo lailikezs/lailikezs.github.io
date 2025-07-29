@@ -2739,7 +2739,7 @@ i.anzhiyu-icon-hashtag {
 [data-theme="light"] {
   --anzhiyu-meta-theme-post-color: #fff;
   --anzhiyu-meta-theme-color: #f7f9fe;
-  --anzhiyu-theme-op-deep: rgba(66,89,239,0.867);
+  --anzhiyu-theme-op-deep: rgba(68,68,68,0.87);
   --global-bg: #f7f9fe;
   --anzhiyu-theme: #181818;
   --anzhiyu-theme-deep: #1856fb;
