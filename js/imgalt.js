@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const images = document.querySelectorAll('img');
 
     images.forEach((img) => {
-        // 检查是否没有alt属性
-        if (!img.hasAttribute('alt')) {
-            // 添加默认的alt属性
-            img.setAttribute('alt', '图片可能长腿跑了');
-        }
+        // 设置新的alt描述
+        const newAltText = '图片可能长腿跑了';
+
+        // 检查是否有alt属性，如果有就替换掉
+        img.setAttribute('alt', newAltText);
     });
 });
