@@ -1,12 +1,38 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // 获取所有的img标签
-    const images = document.querySelectorAll('img');
-
-    images.forEach((img) => {
-        // 设置新的alt描述
+    const setAltAttributes = () => {
+        const images = document.querySelectorAll('img');
         const newAltText = '图片可能长腿跑了';
+        
+        images.forEach((img) => {
+            img.setAttribute('alt', newAltText);
+        });
+    };
 
-        // 检查是否有alt属性，如果有就替换掉
-        img.setAttribute('alt', newAltText);
+    // 设置初始的alt属性
+    setAltAttributes();
+
+    // 监测DOM变化
+    const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+            mutation.addedNodes.forEach((node) => {
+                // 如果添加的节点是img标签，则设置alt属性
+                if (node.tagName === 'IMG') {
+                    node.setAttribute('alt', '图片可能长腿跑了');
+                }
+                // 如果添加的节点是元素节点，检查其子节点
+                if (node.nodeType === Node.ELEMENT_NODE) {
+                    const newImages = node.querySelectorAll('img');
+                    newImages.forEach((img) => {
+                        img.setAttribute('alt', '图片可能长腿跑了');
+                    });
+                }
+            });
+        });
+    });
+
+    // 开始观察文档主体以捕获所有添加的节点
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
     });
 });
