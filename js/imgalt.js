@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const setAltAttributes = () => {
         const images = document.querySelectorAll('img');
-        const newAltText = '图片可能长腿跑了';
+        const new    = '新的描述';
         
         images.forEach((img) => {
             img.setAttribute('alt', newAltText);
@@ -17,13 +17,13 @@ document.addEventListener("DOMContentLoaded", function() {
             mutation.addedNodes.forEach((node) => {
                 // 如果添加的节点是img标签，则设置alt属性
                 if (node.tagName === 'IMG') {
-                    node.setAttribute('alt', '图片可能长腿跑了');
+                    node.setAttribute('alt', '新的描述');
                 }
                 // 如果添加的节点是元素节点，检查其子节点
                 if (node.nodeType === Node.ELEMENT_NODE) {
                     const newImages = node.querySelectorAll('img');
                     newImages.forEach((img) => {
-                        img.setAttribute('alt', '图片可能长腿跑了');
+                        img.setAttribute('alt', '新的描述');
                     });
                 }
             });
