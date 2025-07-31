@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://sufu.20050626.xyz/Article/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4/</loc>
+    <loc>https://sufu.20050626.xyz,https//luesz.dpdns.org/Article/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4/</loc>
     
     <lastmod>2025-07-29</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://sufu.20050626.xyz/Article/%E4%BB%80%E4%B9%88%E6%98%AFFTP%E5%8D%8F%E8%AE%AE/</loc>
+    <loc>https://sufu.20050626.xyz,https//luesz.dpdns.org/Article/%E4%BB%80%E4%B9%88%E6%98%AFFTP%E5%8D%8F%E8%AE%AE/</loc>
     
     <lastmod>2025-07-28</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://sufu.20050626.xyz/essay/index.html</loc>
+    <loc>https://sufu.20050626.xyz,https//luesz.dpdns.org/essay/index.html</loc>
     
     <lastmod>2025-07-28</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://sufu.20050626.xyz/json/music.json</loc>
+    <loc>https://sufu.20050626.xyz,https//luesz.dpdns.org/json/music.json</loc>
     
     <lastmod>2025-07-26</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://sufu.20050626.xyz/categories/index.html</loc>
+    <loc>https://sufu.20050626.xyz,https//luesz.dpdns.org/categories/index.html</loc>
     
     <lastmod>2025-07-24</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://sufu.20050626.xyz/music/index.html</loc>
+    <loc>https://sufu.20050626.xyz,https//luesz.dpdns.org/music/index.html</loc>
     
     <lastmod>2025-07-22</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://sufu.20050626.xyz/tags/index.html</loc>
+    <loc>https://sufu.20050626.xyz,https//luesz.dpdns.org/tags/index.html</loc>
     
     <lastmod>2025-07-22</lastmod>
     
@@ -66,7 +66,7 @@
   
 
   <url>
-    <loc>https://sufu.20050626.xyz/</loc>
+    <loc>https://sufu.20050626.xyz,https//luesz.dpdns.org</loc>
     <lastmod>2025-07-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -74,21 +74,21 @@
 
   
   <url>
-    <loc>https://sufu.20050626.xyz/tags/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/</loc>
+    <loc>https://sufu.20050626.xyz,https//luesz.dpdns.org/tags/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/</loc>
     <lastmod>2025-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://sufu.20050626.xyz/tags/FTP/</loc>
+    <loc>https://sufu.20050626.xyz,https//luesz.dpdns.org/tags/FTP/</loc>
     <lastmod>2025-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://sufu.20050626.xyz/tags/%E6%95%B0%E6%8D%AE%E4%BC%A0%E8%BE%93/</loc>
+    <loc>https://sufu.20050626.xyz,https//luesz.dpdns.org/tags/%E6%95%B0%E6%8D%AE%E4%BC%A0%E8%BE%93/</loc>
     <lastmod>2025-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -97,14 +97,14 @@
 
   
   <url>
-    <loc>https://sufu.20050626.xyz/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://sufu.20050626.xyz,https//luesz.dpdns.org/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2025-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://sufu.20050626.xyz/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90/</loc>
+    <loc>https://sufu.20050626.xyz,https//luesz.dpdns.org/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90/</loc>
     <lastmod>2025-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
