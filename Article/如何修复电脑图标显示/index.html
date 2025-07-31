@@ -158,7 +158,7 @@ gtag('config', 'G-WDR3CVBQWL');
     
           const now = new Date()
           const hour = now.getHours()
-          const isNight = hour <= 19 || hour >= 6
+          const isNight = hour <= 2 || hour >= 6
           if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
           else if (t === 'light') activateLightMode()
           else activateDarkMode()
