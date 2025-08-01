@@ -64,7 +64,7 @@ gtag('config', 'G-WDR3CVBQWL');
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2025-08-01 23:49:17',
+  postUpdate: '2025-08-02 00:20:10',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -346,7 +346,7 @@ queueMicrotask(() => {
   newestCommentInit()
   document.addEventListener('pjax:complete', newestCommentInit)
 })</script><script>var visitorMail = "";
-</script><script async="" data-pjax="" src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://img.20050626.xyz/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><script src="https://imgdata.20050626.xyz/js-swiper/1754063292942_master.js"></script><script defer="defer" id="ribbon" src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zindex="-1" mobile="false" data-click="false"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","meta[property=\"og:type\"]","meta[property=\"og:site_name\"]","meta[property=\"og:description\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+</script><script async="" data-pjax="" src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://img.20050626.xyz/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><script defer="defer" id="ribbon" src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zindex="-1" mobile="false" data-click="false"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","meta[property=\"og:type\"]","meta[property=\"og:site_name\"]","meta[property=\"og:description\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
 var pjax = new Pjax({
   elements: 'a:not([target="_blank"])',
   selectors: pjaxSelectors,
@@ -408,4 +408,33 @@ document.addEventListener('pjax:error', e => {
   if (e.request.status === 404) {
     pjax.loadUrl('/404.html')
   }
-})</script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
+})</script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const observer = new MutationObserver(function (mutationsList) {
+                    mutationsList.forEach(mutation => {
+                        if (mutation.type === "attributes" && mutation.attributeName === "src") {
+                            const img = mutation.target;
+
+                            // 如果 img 的 src 包含我们需要替换的头像地址
+                            if (img.src && img.src.includes("https://weavatar.com/avatar/99f66c5c618bcaf2658b3b74e55db4e591cd765d9050d5a64ad22d1435e50f51?d=robohash")) {
+                                img.src = "https://img.20050626.xyz/tx.jpg"; // 替换为新头像地址
+                            }
+                        }
+                    });
+                });
+
+                // 查找所有评论区的头像图片元素
+                const commentAvatars = document.querySelectorAll('.tk-comment .tk-avatar img');
+                commentAvatars.forEach(img => {
+                    // 观察 img 标签的 src 属性变化
+                    observer.observe(img, { attributes: true });
+
+                    // 如果头像 src 已经包含我们需要替换的 URL，立即替换
+                    if (img.src && img.src.includes("https://weavatar.com/avatar/99f66c5c618bcaf2658b3b74e55db4e591cd765d9050d5a64ad22d1435e50f51?d=robohash")) {
+                        img.src = "https://img.20050626.xyz/tx.jpg"; // 立即替换为新头像地址
+                    }
+                });
+            });
+        </script>
+    </body></html>
