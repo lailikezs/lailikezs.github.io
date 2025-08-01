@@ -461,23 +461,21 @@ document.addEventListener('pjax:error', e => {
                         if (mutation.type === "attributes" && mutation.attributeName === "src") {
                             const img = mutation.target;
 
-                            // 如果 img 的 src 包含我们需要替换的头像地址
                             if (img.src && img.src.includes("https://weavatar.com/avatar/99f66c5c618bcaf2658b3b74e55db4e591cd765d9050d5a64ad22d1435e50f51?d=robohash")) {
-                                img.src = "https://img.20050626.xyz/tx.jpg"; // 替换为新头像地址
+                                img.src = "https://img.20050626.xyz/tx.jpg"; 
                             }
                         }
                     });
                 });
 
-                // 查找所有评论区的头像图片元素
                 const commentAvatars = document.querySelectorAll('.tk-comment .tk-avatar img');
                 commentAvatars.forEach(img => {
-                    // 观察 img 标签的 src 属性变化
+
                     observer.observe(img, { attributes: true });
 
-                    // 如果头像 src 已经包含我们需要替换的 URL，立即替换
+                    
                     if (img.src && img.src.includes("https://weavatar.com/avatar/99f66c5c618bcaf2658b3b74e55db4e591cd765d9050d5a64ad22d1435e50f51?d=robohash")) {
-                        img.src = "https://img.20050626.xyz/tx.jpg"; // 立即替换为新头像地址
+                        img.src = "https://img.20050626.xyz/tx.jpg"; 
                     }
                 });
             });
