@@ -1,11 +1,11 @@
+https://sufu.20050626.xyz/tags/index.html
+https://sufu.20050626.xyz/music/index.html
+https://sufu.20050626.xyz/essay/index.html
+https://sufu.20050626.xyz/categories/index.html
 https://sufu.20050626.xyz/Article/%E5%A6%82%E4%BD%95%E4%BF%AE%E5%A4%8D%E7%94%B5%E8%84%91%E5%9B%BE%E6%A0%87%E6%98%BE%E7%A4%BA/
 https://sufu.20050626.xyz/Article/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4/
 https://sufu.20050626.xyz/Article/%E4%BB%80%E4%B9%88%E6%98%AFFTP%E5%8D%8F%E8%AE%AE/
-https://sufu.20050626.xyz/essay/index.html
 https://sufu.20050626.xyz/json/music.json
-https://sufu.20050626.xyz/categories/index.html
-https://sufu.20050626.xyz/music/index.html
-https://sufu.20050626.xyz/tags/index.html
 https://sufu.20050626.xyz/
 https://sufu.20050626.xyz/tags/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/
 https://sufu.20050626.xyz/tags/FTP/
