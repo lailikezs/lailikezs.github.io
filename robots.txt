@@ -1,2 +1,1 @@
 # Algolia-Crawler-Verif: A19C62F100984FE5
-Sitemap: http://sufu.20050626.xyz/sitemap.xml
