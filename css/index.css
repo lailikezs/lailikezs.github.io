@@ -23575,7 +23575,7 @@ div#swiper_container:hover {
   font-size: 22px;
 }
 .topGroup .todayCard::after {
-  /*position: absolute;*/右上阴影
+  /*position: absolute; 右上阴影*/
   content: "";
   width: 100%;
   height: 100%;
