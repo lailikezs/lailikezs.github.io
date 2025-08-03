@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sufu.20050626.xyz/Article/%E5%A6%82%E4%BD%95%E4%BF%AE%E5%A4%8D%E7%94%B5%E8%84%91%E5%9B%BE%E6%A0%87%E6%98%BE%E7%A4%BA/</loc>
+    
+    <lastmod>2025-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://sufu.20050626.xyz/categories/index.html</loc>
     
     <lastmod>2025-08-02</lastmod>
@@ -41,15 +50,6 @@
     <loc>https://sufu.20050626.xyz/essay/index.html</loc>
     
     <lastmod>2025-08-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sufu.20050626.xyz/Article/%E5%A6%82%E4%BD%95%E4%BF%AE%E5%A4%8D%E7%94%B5%E8%84%91%E5%9B%BE%E6%A0%87%E6%98%BE%E7%A4%BA/</loc>
-    
-    <lastmod>2025-08-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
