@@ -1,4 +1,4 @@
-var posts=["Article/Hexo常用的命令/","Article/什么是FTP协议/","Article/如何修复电脑图标显示/"];function toRandomPost(){
+var posts=["Article/Hexo常用的命令/","Article/代理软件/","Article/如何修复电脑图标显示/","Article/什么是FTP协议/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
